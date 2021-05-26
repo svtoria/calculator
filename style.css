@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    }
+
+    body {
+    background-color: #fcb5a2;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;  
+    }
+
+    .calculator {
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+    margin-top: 10%;
+    border: 1.8px solid rgb(31, 31, 31);
+    background-color: #798187;
+    border-radius: 4px;
+    padding: 0.96%;
+    height: 45%;
+    min-width: 340px;  
+    }
+
+    .line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    }
+
+    .line-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    }
+
+    .show {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 6%;
+    width: 87%;
+    height: 10%;
+    margin-bottom: 2%;
+    background-color: #45494d;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    }
+
+    .operator {
+    background-color: #836f81;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    width: 22%;
+    padding: 2% 5%;
+    margin-bottom: 3%;
+    align-items: center;
+    height: 90%;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    }
+
+    .number {
+    background-color: #dcd8e1;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    width: 22%;
+    padding: 2% 5%;
+    margin-bottom: 3%;
+    align-items: center;
+    height: 90%;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    }
+
+    .equal {
+    background-color: #ff0401;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    width: 22%;
+    padding: 2% 5%;
+    margin-bottom: 4%;
+    align-items: center;
+    height: 90%;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    box-shadow: 3px 3px 0px 0px rgba(53, 58, 61, 1);
+    }
